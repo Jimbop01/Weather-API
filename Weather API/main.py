@@ -22,7 +22,7 @@ def weatherapi():
 @app.route('/output/<cityname>')
 def output(cityname):
     try:
-        API = "574ddfd80439481c9f2122359242709"
+        API = ""
 
         aqi = "yes"
 
