@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<header>
+    <h2>Enter the name of a city:</h2>
+</header>
+<form method="post">
+    <label for="cityname">City Name</label>
+    <input type="text" placeholder={{placeholder}} id ="cityname" name="cityname" >
+    <input type="submit">
+</form>
+
+{% endblock %}
